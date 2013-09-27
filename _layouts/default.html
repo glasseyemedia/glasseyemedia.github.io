@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width">
 
-        <title>{{ page.title }} | {{ site.name }}</title>
+        <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 
         <!-- baseline CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
@@ -13,6 +13,14 @@
 
     </head>
     <body>
+        <header class="container">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1><a href="/">{{ site.name }}</a><br>
+                    <small>{{ site.tagline }}</small></h1>
+                </div>
+            </div>
+        </header>
         <div class="container">
             {{ content }}
         </div> <!-- /container -->
