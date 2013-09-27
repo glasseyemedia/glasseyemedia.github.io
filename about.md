@@ -9,12 +9,13 @@ We're a small software and consulting company working with news organizations to
 Homicide Watch
 --------------
 
-In Sept. 2010, we founded Homicide Watch DC, a site dedicated to covering every murder in the District of Columbia, from crime to conviction. The site earned a dedicated, vibrant and engaged audience, as well as awards.
+In Sept. 2010, we founded [Homicide Watch DC](http://homicidewatch.org), a site dedicated to covering every murder in the District of Columbia, from crime to conviction. The site earned a dedicated, vibrant and engaged audience, as well as [awards](http://newsroom.journalists.org/2012/09/22/an-evening-for-celebrating-innovation/).
 
 The site uses a custom platform, combining blogging and rich data, that allows reporters to find and tell stories other news outlets miss.
 
 The Homicide Watch framework is available as a hosted platform, licensed exclusively to our partners in their media markets.
 
+ - [Homicide Watch DC](http://homicidewatch.org)
  - [Homicide Watch Chicago](http://homicides.suntimes.com)
  - [Homicide Watch Trenton](http://trenton.homicidewatch.org)
  - [Colorado Gun Deaths](http://coloradogundeaths.com)
@@ -35,7 +36,7 @@ Newsroom strategy and product development
 
 We started in newspapers. We lived abroad. We learned and moved, and when we started out on our own, we started to see news differently.
 
-Working with partners, we help craft beats and find better ways to cover core subjects.
+Working with partners, we help craft beats and find better ways to cover core subjects. We design with empathy, because journalism is for real people.
 
 
 Contact Us
