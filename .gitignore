@@ -1,4 +1,9 @@
+# jekyll
 _site
 
+# files
 .DS_Store
 .~*
+
+# python
+*.py[cod]
