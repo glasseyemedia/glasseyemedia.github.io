@@ -8,8 +8,4 @@ published: true
 categories: ['Press']
 excerpt: "tl;dr"
 ---
-It was Ms. Amico, 30, a former crime reporter at The Press Democrat in Santa Rosa, Calif., who covered every murder in Washington for the past two years, working full time as an army of one. (She was honored by The New York Times, which then owned The Press Democrat, for her work at that newspaper.)
-
-Mr. Amico, 31, a reporter and Web developer who has worked with “PBS NewsHour” and NPR, worked nights and weekends to create a searchable database of her reporting. When I talked to them on the phone from Boston, they were happy to tell me that they had licensed their software for the first time, to The Trentonian, which is owned by The Journal Register.
-
-Shouldn’t financing meant for journalistic innovation go to the green shoots like Homicide Watch and not be used to fertilize giant dead-tree media? I am all for putting more reporting boots on the ground, but the existential dilemma confronting media will require new answers, not stopgap funds for legacy approaches. 
+It’s a remarkable thing to behold — part database, part news site, it also serves as a kind of digital memorial for homicide victims in Washington. Their pictures are published, their cases are followed and their deaths are acknowledged as a meaningful event in the life of the city.
