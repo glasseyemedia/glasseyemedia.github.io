@@ -2,7 +2,7 @@
 title: "One of the most important experiments in improving journalism in the era of the internet"
 link: http://www.shirky.com/weblog/2012/09/save-homicide-watch/
 date: September 4, 2012 at 8:22 pm
-credit: "Clay Shirky"
+credit: "Clay Shirky, shirky.com"
 layout: post
 published: true
 comments: false

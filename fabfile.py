@@ -9,10 +9,8 @@ POST_TEMPLATE = """\
 title: "%(title)s"
 layout: post
 published: true
-comments: false
+date: %(date)s
 categories: []
-scripts: []
-styles: []
 excerpt: "tl;dr"
 ---
 """
@@ -36,7 +34,7 @@ def post(title='', format='markdown'):
 	filename = _f("_posts/%s-%s.%s" % (date, slug, format))
 	if not os.path.exists(filename):
 		with open(filename, 'wb') as f:
-			content = POST_TEMPLATE % {'title': title}
+			content = POST_TEMPLATE % {'title': title, 'date': date}
 			f.write(content)
 	else:
 		raise _DoingItWrong('That post already exists!')
