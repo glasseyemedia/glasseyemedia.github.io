@@ -14,6 +14,20 @@ layout: default
 	<h3><a href="/about.html">About us</a></h3>
 </div>
 
-<div class="readme col-md-7">
+<div class="readme col-md-9">
+	{% for post in site.posts %}
+	<article class="post">
+		{% if post.link %}
+		<blockquote>
+			{{ post.content }}
 
+			<small>
+				<cite><a href="{{ post.link }}">{{ post.credit }}</a></cite>
+			</small>
+		</blockquote>
+		{% else %}
+		<h2>{{ post.title }}</h2>
+		{% endif %}
+	</article>
+	{% endfor %}
 </div>

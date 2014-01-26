@@ -1,8 +1,8 @@
 import datetime
 import os
-import re
-import unicodedata
+
 from fabric.api import *
+from slugify import slugify as _slugify
 
 POST_TEMPLATE = """\
 ---
@@ -25,18 +25,6 @@ class _DoingItWrong(Exception):
 	Catch-all for breaking things
 	"""
 	pass
-		
-
-# borrowed shamelessly from django
-def _slugify(value):
-    """
-    Normalizes string, converts to lowercase, removes non-alpha characters,
-    and converts spaces to hyphens.
-    """
-    value = unicode(value)
-    value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore')
-    value = re.sub('[^\w\s-]', '', value).strip().lower()
-    return re.sub('[-\s]+', '-', value)
 
 
 def post(title='', format='markdown'):
