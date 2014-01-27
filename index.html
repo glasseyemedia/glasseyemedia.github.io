@@ -2,32 +2,18 @@
 layout: default
 ---
 
-<div class="contact col-md-3">
-	<dl>
-		<dt>Laura Amico, CEO</dt>
-		<dd><a href="mailto:laura@homicidewatch.org">laura@homicidewatch.org</a></dd>
-		<br>
-		<dt>Chris Amico, CTO</dt>
-		<dd><a href="mailto:chris@homicidewatch.org">chris@homicidewatch.org</a></dd>
-	</dl>
+{% for post in site.posts %}
+<article class="post">
+	{% if post.link %}
+	<blockquote>
+		{{ post.content }}
 
-	<h3><a href="/about.html">About us</a></h3>
-</div>
-
-<div class="readme col-md-9">
-	{% for post in site.posts %}
-	<article class="post">
-		{% if post.link %}
-		<blockquote>
-			{{ post.content }}
-
-			<small>
-				<cite><a href="{{ post.link }}">{{ post.credit }}</a></cite>
-			</small>
-		</blockquote>
-		{% else %}
-		<h2>{{ post.title }}</h2>
-		{% endif %}
-	</article>
-	{% endfor %}
-</div>
+		<small>
+			<cite><a href="{{ post.link }}">{{ post.credit }}</a></cite>
+		</small>
+	</blockquote>
+	{% else %}
+	<h2>{{ post.title }}</h2>
+	{% endif %}
+</article>
+{% endfor %}
