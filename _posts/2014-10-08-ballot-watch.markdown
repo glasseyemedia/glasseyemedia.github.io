@@ -1,7 +1,7 @@
 ---
 title: "Ballot Watch"
 link: http://apps.frontline.org/votingrights
-credit: "Frontline: Introducing Voting Rights"
+credit: "Frontline: Introducing Ballot Watch"
 layout: post
 published: true
 date: 2014-10-01

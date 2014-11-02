@@ -1,0 +1,28 @@
+{
+  "name": "glasseyemedia.org",
+  "version": "0.0.0",
+  "homepage": "http://glasseyemedia.org",
+  "authors": [
+    "chrisamico <eyeseast@gmail.com>"
+  ],
+  "description": "Minimilist corporate site for Glass Eye Media LLC",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "null",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "git://github.com/mbostock/d3.git#~3.2.8",
+    "jquery": "~2.0.3",
+    "underscore": "git://github.com/documentcloud/underscore.git#~1.5.1"
+  }
+}

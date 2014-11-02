@@ -6,10 +6,10 @@ from slugify import slugify as _slugify
 
 POST_TEMPLATE = """\
 ---
-title: "%(title)s"
+title: "{title}"
 layout: post
 published: true
-date: %(date)s
+date: {date}
 categories: []
 excerpt: "tl;dr"
 ---
@@ -31,10 +31,10 @@ def post(title='', format='markdown'):
 	"""
 	date = datetime.datetime.now().strftime('%Y-%m-%d')
 	slug = _slugify(title)
-	filename = _f("_posts/%s-%s.%s" % (date, slug, format))
+	filename = _f("_posts/{0}-{1}.{2}".format(date, slug, format))
 	if not os.path.exists(filename):
 		with open(filename, 'wb') as f:
-			content = POST_TEMPLATE % {'title': title, 'date': date}
+			content = POST_TEMPLATE.format(title=title, date=date)
 			f.write(content)
 	else:
 		raise _DoingItWrong('That post already exists!')
